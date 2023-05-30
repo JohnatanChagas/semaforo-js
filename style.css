@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 5vh;
+}
+
+.button {
+	width: 100px;
+	cursor: pointer;
+	border: none;
+}
+
+/* Botão na cor vermelha*/
+#red {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: red;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px;
+	width: 100px;
+	transition: all 0.3s;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  #red:hover {
+	background-color: darkred;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  #red:active {
+	background-color: crimson;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transform: translateY(2px);
+  }
+
+/* Botão na cor Amarela*/
+#yellow {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: yellow;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px;
+	width: 100px;
+	transition: all 0.3s;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  #yellow:hover {
+	background-color: goldenrod;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  #yellow:active {
+	background-color: darkgoldenrod;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transform: translateY(2px);
+  }
+
+  /* Botão na cor verde*/
+#green {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: green;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px;
+	width: 100px;
+	transition: all 0.3s;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  #green:hover {
+	background-color: darkgreen;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  #green:active {
+	background-color: forestgreen;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transform: translateY(2px);
+  }
+
+
+#automatic {
+	display: inline-block;
+	border-radius: 4px;
+	background: linear-gradient(to right, red, yellow, green);
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px;
+	width: 100px;
+	transition: all 0.3s;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  #automatic:hover {
+	background: linear-gradient(to right, darkred, goldenrod, darkgreen);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  #automatic:active {
+	background: linear-gradient(to right, crimson, darkgoldenrod, forestgreen);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transform: translateY(2px);
+  }
